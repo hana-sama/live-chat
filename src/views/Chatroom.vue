@@ -1,13 +1,15 @@
 <template>
-  <p>Chatroom</p>
+  <div class="container">
+    <navbar />
+  </div>
 </template>
 
 <script>
+import Navbar from '../components/Navbar.vue'
 export default {
-
+  components: { Navbar }
 }
 </script>
-
 <style>
 
 </style>
